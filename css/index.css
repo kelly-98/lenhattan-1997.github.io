@@ -27,6 +27,7 @@
 
 .header__navbar .navbar-nav .nav-item.active .nav-link{
     color: #fbbd61;
+    font-weight: 500;
 }
 
 .header__navbar .navbar-nav .nav-item .nav-link:hover{
@@ -73,13 +74,68 @@
 /* Footer */
 .footer{
     background-color: #7C989C;
-    height: 100px;
 }
 
-.footer-bottom{
-    background-color: #E0C5AC;
+.footer__top{
+    padding: 1.2rem 0 1rem;
 }
 
+.footer__icon i {
+    font-size: 1.5rem;
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 2rem;
+    background-color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.footer__icon i:hover{
+    background-color: #fbbd61;
+    color: white;
+}
+
+.footer__icon{
+    color: #fbbd61;
+}
+
+.footer__bottom{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.footer__bottom a{
+    color: #fbbd61;
+    text-decoration: none;
+}
+
+
+/* About Me */
+.aboutMe .aboutMe__avt img{
+   height: 400px; 
+   width: 400px;
+}
+
+.aboutMe__content h3{
+    color: #fbbd61;
+    font-weight: 500;
+    /* border-bottom: 1px solid #7C989C; */
+}
+
+.aboutMe__detail{
+    border-top: 1px solid #7C989C;
+    border-right: 1px solid #7C989C;
+    padding-top: 1.5rem;
+}
+
+.detail__right a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
