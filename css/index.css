@@ -1,0 +1,102 @@
+*{
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Rokkitt', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* Header */
+.header{
+    background: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.header__navbar{
+    justify-content: space-around;
+}
+
+.header__navbar .navbar-nav .nav-item{
+    padding: 0 1rem;
+    letter-spacing: 2px;
+}
+
+.header__navbar .navbar-nav .nav-item.active .nav-link{
+    color: #fbbd61;
+}
+
+.header__navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #fbbd61;
+}
+
+.header__navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 1.2rem;
+    transition: all .5s;
+}
+
+.header__content{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__content{
+    letter-spacing: 3px;    
+}
+
+.header__content p{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+.header__content h2{
+    font-size: 3rem;
+    
+}
+
+.header__content span {
+    color: #796464;
+    letter-spacing: 5px;
+}
+
+
+
+
+/* Footer */
+.footer{
+    background-color: #7C989C;
+    height: 100px;
+}
+
+.footer-bottom{
+    background-color: #E0C5AC;
+}
+
+
+
+
+/* BACK TO TOP */
+.back-to-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    visibility: hidden;
+    opacity: 1;
+}
+    
+.cd-top--is-visible { 
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top :hover{
+    opacity: 0.5;
+}
