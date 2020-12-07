@@ -118,12 +118,14 @@
 .aboutMe .aboutMe__avt img{
    height: 400px; 
    width: 400px;
+   box-shadow: 5px 5px 5px #888;
+   border-radius: 0 15px 0 0;
 }
+
 
 .aboutMe__content h3{
     color: #fbbd61;
     font-weight: 500;
-    /* border-bottom: 1px solid #7C989C; */
 }
 
 .aboutMe__detail{
@@ -142,12 +144,23 @@
 /* BACK TO TOP */
 .back-to-top{
     position: fixed;
-    right: 50px;
+    right: 40px;
     bottom: 50px;
     visibility: hidden;
     opacity: 1;
-}
     
+}
+
+.back-to-top i{
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #fbbd61;
+    line-height: 50px;
+    text-align: center;
+}
+
 .cd-top--is-visible { 
     visibility: visible;
     opacity: 1;
