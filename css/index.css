@@ -71,6 +71,34 @@
 
 
 
+/* About Me */
+.aboutMe .aboutMe__avt img{
+   height: 400px; 
+   width: 400px;
+   box-shadow: 5px 5px 5px #888;
+   border-radius: 0 15px 0 0;
+}
+
+
+.aboutMe__content h3{
+    color: #fbbd61;
+    font-weight: 500;
+}
+
+.aboutMe__detail{
+    border-top: 1px solid #7C989C;
+    border-right: 1px solid #7C989C;
+    padding-top: 1.5rem;
+}
+
+.detail__right a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
 /* Footer */
 .footer{
     background-color: #7C989C;
@@ -99,7 +127,7 @@
     color: white;
 }
 
-.footer__icon{
+.footer__icon a{
     color: #fbbd61;
 }
 
@@ -113,31 +141,6 @@
     text-decoration: none;
 }
 
-
-/* About Me */
-.aboutMe .aboutMe__avt img{
-   height: 400px; 
-   width: 400px;
-   box-shadow: 5px 5px 5px #888;
-   border-radius: 0 15px 0 0;
-}
-
-
-.aboutMe__content h3{
-    color: #fbbd61;
-    font-weight: 500;
-}
-
-.aboutMe__detail{
-    border-top: 1px solid #7C989C;
-    border-right: 1px solid #7C989C;
-    padding-top: 1.5rem;
-}
-
-.detail__right a{
-    text-decoration: none;
-    color: black;
-}
 
 
 
