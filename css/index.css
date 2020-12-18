@@ -114,6 +114,12 @@
     }
 }
 
+@media screen and (max-width: 556px) {
+    .detail__right-educa{
+        display: none;
+    }
+}
+
 
 /* Footer */
 .footer{
