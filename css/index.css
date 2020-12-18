@@ -157,7 +157,11 @@
     text-decoration: none;
 }
 
-
+@media screen and (max-width: 720px) {
+    .footer__icon-hidden{
+        display: none;
+    }
+}
 
 
 /* BACK TO TOP */
